@@ -1,5 +1,5 @@
 # ELSpring2016
-Class repository for N02899977. 
 
-**Important:** stuff
+Repository to hold code and other files for Raspberry Pi projects.  This repository is for N02899977.
+
 
