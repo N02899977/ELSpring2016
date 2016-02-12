@@ -18,6 +18,10 @@
 # lcd.clock(line, "justification"); line = 1,2; justification =l,r,c
 # lcd.scroll_clock(line, "justification", speed, "Scrolling Message"); line & justification refer to clock;  speed = 0:1s
 # lcd.scroll(line, speed, "Scrolling Message");
+
+# from urllib2 import urlopen
+# api_key = 2e714d06ee6612e6e746d6abd9f3b7a9
+# weather = urlopen('http://api.openweathermap.org/data/2.5/weather?lat=')
 	
 # import required functions
 from AndyPi_LCD import AndyPi_LCD
