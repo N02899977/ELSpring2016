@@ -1,0 +1,62 @@
+# logTime.py
+# Write a python function readTime() that returns a list of 
+# the form [xdate, xtime] that has current date in
+# xdate, and current time in xtime. The string for xdate has 
+# the form 'Year-Month-Day' (like 2016-02-16)
+# and the time string xtime has the form 'Hour-minute-second' 
+# as in '17-10-49' . We are using a 24-hour
+# clock. You don't need to show me readTime() function. 
+# Just make sure it works as expected.
+
+import time
+import sqlite3
+
+def readTime():
+   list = []
+   localtime = time.localtime()
+   xtime = time.strftime("%H-%M-%S", localtime)
+   xdate = time.strftime("%Y-%m-%d", localtime)
+   list.append(xdate)
+   list.append(xtime)
+   
+   print list
+   return list
+   
+
+# Now modify the readTime() function, call it logTime(), 
+# to log the same date and time strings to a
+# sqlite database. Create a testTime.db database file with 
+# two text columns to hold these values.
+# Every time you call the python function logTime(), the 
+# current date and time should be logged to the db
+# file.
+
+def logTime():
+   list = []
+   localtime = time.localtime()
+   xtime = time.strftime("%H-%M-%S", localtime)
+   xdate = time.strftime("%Y-%m-%d", localtime)
+   list.append(xdate)
+   list.append(xtime)
+   
+   conn = sqlite3.connect('testTime.db')
+   print "Opened database successfully."
+   
+   showTable = "SHOW TABLES LIKE 'TIME'"
+   cursor.execute(showTable)
+   result = cursor.fetchone()
+   if !result:
+      # there is a table named 'TIME'
+         conn.execute("INSERT INTO TIME(DATE,TIME) VALUES (?, ?);", (xdate, xtime))
+
+   else:
+      # there are no tables named 'TIME'		   
+   print "Table created."
+   
+   conn.commit()
+   print "Time recorded."
+   conn.close()
+
+   return list
+   
+logTime()
