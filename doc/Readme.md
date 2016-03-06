@@ -1,2 +1,2 @@
-Documentation Directory. All your documentation should go here.
+Documentation Directory for log files and other project documents.
 
