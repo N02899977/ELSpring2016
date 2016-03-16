@@ -23,7 +23,8 @@ def logTime():
    # check if the table 'TIME' already exists
    cursor = conn.cursor()   
    query = cursor.execute("SELECT * FROM sqlite_master WHERE type = 'table' AND name = 'TIME'")
-   if query:
+   exists = cursor.fetchone()[0]  # fetches result of query
+   if exists:
       # there is a table named 'TIME'
       conn.execute("INSERT INTO TIME(DATE,TIME) VALUES (?, ?);", (xdate, xtime))
       conn.commit()
