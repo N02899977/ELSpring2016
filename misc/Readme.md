@@ -1,2 +1,2 @@
-A directory for misellaneous stuff. Nothing really relevant should be here!
+A directory for misellaneous files.  Some homework files included here.
 
