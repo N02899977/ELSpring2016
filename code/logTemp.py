@@ -21,7 +21,7 @@ def logTemp():
         xtime = time.strftime("%H-%M-%S", localtime)
         xdate = time.strftime("%Y-%m-%d", localtime)
    
-	# connect to testTemp database
+		# connect to testTemp database
         conn = sqlite3.connect('/home/pi/Documents/EmbeddedLinux/ELSpring2016/code/myTempTime.db')
         print "Opened database successfully."
 
