@@ -31,11 +31,11 @@
 <p>We failed to meet our deploy by April 1 deploy deadline. We also chose to leave all of the networking in the hands of Brendan. This is arguably an academic disservice to the rest of the group in that we will not have learned anything about networking because we let the expert do it instead of us learning on our own. This however, was done out of efficiency and the interest in time. We also chose a networking option that has many "quick and dirty" fixes. This impacts the scalability and portability of our project. Without Brendan, our project is essential in its infancy. We did not evenly distribute the back end responsibilities well.</p>
 
 <h5>7. Describe your goals for the next 3-4 weeks</h5>
-<p>Get the networking setup so that we can deploy the Pis as soon as possible[<b>Edit: </b>As of April 6, the networking is working. Our next step is to copy the sd cards.] Begin to develop our GUI and representation of the data.</p>
+<p>Get the networking setup so that we can deploy the Pis as soon as possible [<b>Edit: </b>As of April 6, the networking is working. Our next step is to copy the sd cards.] Begin to develop our GUI and representation of the data.</p>
 
 <h5>8. List group members, and each member's contributions.</h5>
 <ul><li>Heidi - Python script and cronjob are written and working. (Will perform bug check [<b>Edit: </b> As of April 6, the bug was fixed])</li>
 <li>Victoria - Flask is complete, the sqlite3 entries are returning JSON objects as desired</li>
-<li>Brendan - LAMP server still in progress. static IP address on subnet have been successfully reserved.</li>
+<li>Brendan - LAMP server still in progress [<b>Edit: </b>As of April 6, the server is working with the test pi.] Static IP address on subnet have been successfully reserved.</li>
 <li>Jabari - Organized meet dates, spokesperson for sustainability department, reserved rooms to collect temperature data and is currently creating documentation</li></ul>
 
