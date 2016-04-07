@@ -37,5 +37,5 @@
 <ul><li>Heidi - Python script and cronjob are written and working. (Will perform bug check [<b>Edit: </b> As of April 6, the bug was fixed])</li>
 <li>Victoria - Flask is complete, the sqlite3 entries are returning JSON objects as desired</li>
 <li>Brendan - LAMP server still in progress [<b>Edit: </b>As of April 6, the server is working with the test pi.] Static IP address on subnet have been successfully reserved.</li>
-<li>Jabari - Organized meet dates, communication link to sustainability officer, reserved rooms to collect temperature data and is currently creating documentation</li></ul>
+<li>Jabari - Organized meet dates, communication link to sustainability officer, reserved rooms to collect temperature data and is currently creating documentation.  Also setup 6 pis with temperature sensors and cases.</li></ul>
 
